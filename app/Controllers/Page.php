@@ -5,13 +5,13 @@ namespace App\Controllers;
 
 class Page extends BaseController
 {
-     public function faq()
+     public function page()
      {
-          echo "HAlaman FaQ";
+          return view('page/home');
      }
 
      public function about()
      {
-          echo "HAlaman AbOuT";
+          return view('page/about');
      }
 }
