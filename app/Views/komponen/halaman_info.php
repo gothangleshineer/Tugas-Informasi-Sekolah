@@ -1,0 +1,1 @@
+Ditulis dalam kategori: <b><?php echo $parameter['kategori'] ?></b> dengan penulis: <b> <?php echo $parameter['penulis'] ?></b>
