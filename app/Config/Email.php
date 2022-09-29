@@ -9,12 +9,12 @@ class Email extends BaseConfig
     /**
      * @var string
      */
-    public $fromEmail;
+    public $fromEmail = "deusionboys974@gmail.com";
 
     /**
      * @var string
      */
-    public $fromName;
+    public $fromName = "SISTEM INFORMASI SEKOLAH";
 
     /**
      * @var string
