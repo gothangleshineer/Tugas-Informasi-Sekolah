@@ -6,6 +6,9 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        $this->load->model('m_mhs');
+        $data['mahasiswa'] = $this->m_mhs->get_data();
+
+        $this->load->view('v_mhs', $data);
     }
 }

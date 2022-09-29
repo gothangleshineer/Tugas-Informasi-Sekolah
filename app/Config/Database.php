@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'db_sekolah',
+        'database' => 'db_mhs',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
